@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./components/scripts.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=sans"
+    />
+    <title>News Paper</title>
+  </head>
+
+  <body>
+    <header id="header-main-page">
+      <p class="site-info">WWW.ECONOMICTIMES.COM</p>
+      <div id="paper-name">
+        <div id="large-text">T</div>
+        HE
+        <div id="large-text">E</div>
+        CONOMIC
+        <div id="large-text">T</div>
+        IMES
+      </div>
+      <section class="paper-info">
+        <div class="paper-info-content">BENNETT. COLEMAN & CO. LTD.</div>
+        <div class="paper-info-content">
+          VOL. 51 NO. 26 NEW DELHI / GURGAON 1 22 PAGES 0.50 OR ALONG WITH THE
+          TIMES OF INDIA
+        </div>
+        <div
+          class="paper-info-content"
+          style="margin-right: 20px; text-align: center"
+        >
+          MONDAY, 6 FEBRUARY 2023
+        </div>
+      </section>
+
+      <section class="haedlines">
+        <div style="">
+          <div
+            class="headline-content-1"
+            style="display: flex; flex-direction: row; width: 100px"
+          >
+            <img id="girl-image" src="./components/images/girl.png" />
+            <div class="headline-text">
+              Small Cos Sign Up Talent as Big Tech Sheds Staff DISRUPTION
+              <br />
+              <div class="headline-subText">
+                DISRUPTION: STARTUPS & TECH » 18
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="headline-content-2 headline-text">
+          India Among Contenders for New EV Plant: CEO COMPANIES
+          <br />
+          <div class="headline-subText">COMPANIES: PURSUIT OF PROFIT » 5</div>
+        </div>
+        <div style="max-width: 500px">
+          <div
+            class="headline-content-3 headline-text"
+            style="display: flex; flex-direction: row; min-width: 400px"
+          >
+            <div style="position: absolute">
+              Former Pakistan President <br />
+              Pervez MusharrafPasses Away
+            </div>
+
+            <img id="left-image" src="./components/images/parwaj.png" />
+          </div>
+        </div>
+      </section>
+      <div class="plans">
+        <div>*Applicable only on monthly purchase</div>
+        <div>
+          To order your favourite newspaper. call 18001200 004 toll free or
+          visit subscribe.timesgroup.com.To advertise with us, call 1800120 5474
+        </div>
+      </div>
+    </header>
+
+    <div
+      id="alt-header"
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 5px solid black;
+        align-items: end;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+        "
+      >
+        <span
+          id="page-id"
+          style="
+            background-color: red;
+            margin-bottom: 3px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bolder;
+            font-size: 25px;
+            width: 50px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          2
+        </span>
+
+        <span id="page-title" style="font-weight: bolder; font-size: xx-large"
+          >Pure Politics</span
+        >
+      </div>
+
+      <div>
+        THE ECONOMIC TIMES I NEW DELHI / GURGAON MONDAY 1 6 FEBRUARY 2023
+        WWW.ECONOMICTIMES.COM
+      </div>
+    </div>
+
+    <div class="loader" id="circularLoader"></div>
+    <section id="news-section"></section>
+    <div id="page-nav">
+      <span class="button" id="prev-button">Previous Page</span>
+
+      <span class="button" id="next-button">Next Page</span>
+    </div>
+  </body>
+</html>
